@@ -1,0 +1,32 @@
+/.idea/
+besharp-blog-custom-runtime-cdk.iml
+
+node_modules
+
+/**/dist
+/**/*.d.ts
+/**/coverage
+/**/*.js
+/**/package-lock.json
+/**/demo
+
+# folder for development drafts
+dev
+
+# Ignore dotenv configuration
+.env
+
+out/
+
+# Lerna debug files
+/lerna-debug.log
+
+!/**/jest.config.js
+
+# Backend, lambda layers
+/**/layer
+
+# Backend routes
+/**/generated
+
+/**/cdk.out
